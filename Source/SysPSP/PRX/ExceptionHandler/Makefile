@@ -10,7 +10,7 @@ USE_KERNEL_LIBC = 1
 USE_KERNEL_LIBS = 1
 
 INCDIR =
-CFLAGS = -O3 -G0 -Wall  -nostartfiles
+CFLAGS = -Os -G0 -Wall  -nostartfiles
 CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
 ASFLAGS = $(CFLAGS)
 

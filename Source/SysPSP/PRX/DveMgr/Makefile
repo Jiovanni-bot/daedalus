@@ -1,7 +1,7 @@
 TARGET = dvemgr
 OBJS = main.o exports.o
 
-CFLAGS = -O3 -G0 -Wall -fshort-wchar -fno-pic -mno-check-zero-division
+CFLAGS = -Os -G0 -Wall -fshort-wchar -fno-pic -mno-check-zero-division
 CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
 ASFLAGS = $(CFLAGS)
 
