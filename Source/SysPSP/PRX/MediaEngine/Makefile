@@ -2,7 +2,7 @@ TARGET = mediaengine
 OBJS = me_stub.o main.o
 
 INCDIR =
-CFLAGS = -O2 -G0 -Wall
+CFLAGS = -O3 -G0 -Wall
 
 
 CXXFLAGS = $(CFLAGS)
